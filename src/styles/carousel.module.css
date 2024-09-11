@@ -1,0 +1,56 @@
+/* Contenedor principal del carrusel */
+.carouselContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+  }
+  
+  /* Contenedor de la imagen grande seleccionada */
+  .selectedImageContainer {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .selectedImage {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* Carrusel en la parte inferior */
+  .carousel {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    overflow-x: auto;
+  }
+  
+  .thumbnail {
+    width: 100px;
+    height: 66px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    transition: border 0.3s ease;
+  }
+  
+  .thumbnail:hover {
+    border: 2px solid #333;
+  }
+  
+  /* Estilo cuando la miniatura está seleccionada */
+  .thumbnail.active {
+    border: 2px solid #0070f3;
+  }
+  
+  .thumbnailImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+  
