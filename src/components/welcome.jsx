@@ -7,23 +7,17 @@ export default function Welcome() {
     return (
         <>
             <main className={styles.container}>
-                <article className={styles.containerInfo}>
-                    <section>
-                        <Image src="" alt="UserICON" />
+                <article className={styles.containerall}>
+                    <section className={styles.containerInfo}>
+                        <section className={styles.containerImageProfile}>
+                            <Image src="/assets/ImgProfile.jpeg" alt="UserICON" width={100} height={125} className={styles.imgProfile} />
+                        </section>
+                        <section className={styles.containerText}>
+                            <h1 className={styles.name}>Diego Diaz De La Concha</h1>
+                            <h2 className={styles.journey}>Software Engineering Student</h2>
+                            <h3 className={styles.inspirations}>Inspirations</h3>
+                        </section>
                     </section>
-                    <section>
-                        <h1>Diego Diaz De La Concha</h1>
-                        <h2>Software Engineering Student</h2>
-                        <h3>Inspirations</h3>
-                    </section>
-                </article>
-                {/* <article className={styles.containerSocialmedia}>
-                    <Image src="" alt="github" />
-                    <Image src="" alt="Linkedin" />
-                    <Image src="" alt="Figma" />
-                    <Image src="" alt="Gmail" />
-                </article> */}
-                <article>
                     <SocialMedia />
                 </article>
             </main>
