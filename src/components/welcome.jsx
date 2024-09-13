@@ -1,5 +1,7 @@
+
 import styles from '../styles/welcome.module.css';
 import Image from 'next/image';
+import SocialMedia from './SocialMedia';
 
 export default function Welcome() {
     return (
@@ -15,11 +17,14 @@ export default function Welcome() {
                         <h3>Inspirations</h3>
                     </section>
                 </article>
-                <article className={styles.containerSocialmedia}>
+                {/* <article className={styles.containerSocialmedia}>
                     <Image src="" alt="github" />
                     <Image src="" alt="Linkedin" />
                     <Image src="" alt="Figma" />
                     <Image src="" alt="Gmail" />
+                </article> */}
+                <article>
+                    <SocialMedia />
                 </article>
             </main>
         </>
