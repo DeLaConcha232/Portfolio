@@ -10,7 +10,7 @@ export default function Welcome() {
                 <article className={styles.containerall}>
                     <section className={styles.containerInfo}>
                         <section className={styles.containerImageProfile}>
-                            <Image src="/assets/ImgProfile.jpeg" alt="UserICON" width={100} height={125} className={styles.imgProfile} />
+                            <Image src="/" alt="UserICON" width={100} height={125} className={styles.imgProfile} />
                         </section>
                         <section className={styles.containerText}>
                             <h1 className={styles.name}>Diego Diaz De La Concha</h1>

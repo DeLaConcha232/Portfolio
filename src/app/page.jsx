@@ -7,10 +7,10 @@ import Carousel from '../components/carousel';
 import Navbar from '../components/Navbar';
 
 
-export default function inicio(params) {
+export default function inicio() {
   return (
     <>
-      <main>
+      <main className={styles.container}>
         <Navbar />
         <Welcome />
         <article className={styles.containerProyects}>

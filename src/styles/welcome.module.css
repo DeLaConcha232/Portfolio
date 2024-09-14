@@ -37,4 +37,16 @@
 }
 
 .containerText{
+    color: #fff;
+}
+.name{
+    font-size: 2rem;
+    font-weight: lighter;
+}
+.journey{
+    font-size: 3rem;
+
+}
+.inspirations{
+    font-size: 2rem;
 }
