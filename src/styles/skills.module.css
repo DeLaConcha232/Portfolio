@@ -3,16 +3,29 @@
 .container{
     width: 100%;
     height: auto;
+    padding: 2rem;
+    border: 1px solid #000;
+}
+.containerLists{
+    width: 100%;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content:space-evenly;
     align-items: center;
     padding: 2rem;
     text-align: center;
-    font-size: 1.2rem;
-    border: 1px solid #000;
+    font-size: 2rem;
+    font-weight: bold;
+    box-shadow: 2px 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
-
+.skills{
+    margin: 3rem;
+}
 .list{
     list-style: none;
+}
+.pointList{
+    font-size: 1.5rem;
+    font-weight: lighter;
 }

@@ -15,17 +15,27 @@ const Navbar = () => {
       <ul className={styles.navLinks}>
         <li>
           <a href="/">
-            <h1>About</h1>
+            <h1>Welcome</h1>
           </a>
         </li>
         <li>
           <a href="/">
-            <h1>Projects</h1>
+            <h1>Proyects</h1>
           </a>
         </li>
         <li>
           <a href="/">
-            <h1>Contact</h1>
+            <h1>Skills</h1>
+          </a>
+        </li>
+        <li>
+          <a href="/">
+            <h1>Education</h1>
+          </a>
+        </li>
+        <li>
+          <a href="/">
+            <h1>Footer</h1>
           </a>
         </li>
       </ul>

@@ -5,23 +5,26 @@ import Proyects from '../components/proyects';
 import Skills from '../components/skills';
 import Carousel from '../components/carousel';
 import Navbar from '../components/Navbar';
-
+import Footer from '../components/footer';
+import IconsTecnologies from '../components/iconsTecnologies';
 
 export default function inicio() {
   return (
     <>
       <main className={styles.container}>
-        <Navbar />
+        <article className={styles.containerNav}>
+          <Navbar />
+        </article>
         <Welcome />
         <article className={styles.containerProyects}>
-          <Proyects />
-          <Proyects />
-          <Proyects />
-          <Proyects />
+          <IconsTecnologies />
         </article>
         <Skills />
         <article className={styles.containerCarousel}>
           <Carousel />
+        </article>
+        <article>
+          <Footer />
         </article>
       </main>
     </>

@@ -2,18 +2,17 @@
 .container{
     width: 100%;
     height: auto;
+    background-color: #1b1b1b;
 }
 
 .containerProyects{
-    width: 100%;
+    width: auto;
     height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    border: 1px solid #000;
-    padding: 1rem;
-    gap: 1.5rem;
+    margin: 3rem;
 }
 
 .containerCarousel{
@@ -23,4 +22,18 @@
     width: 100%;
     height: auto;
     padding: 2rem;
+}
+.containerNav{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    background-color: transparent;
+    position: sticky;
+    top: 0;
 }
