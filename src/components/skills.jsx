@@ -10,18 +10,12 @@ export default function Skills() {
                             <h1>HardSkills</h1>
                             <li className={styles.pointList}>Graphic Designer</li>
                             <li className={styles.pointList}>Photo/Video Edition</li>
-                            <br />
-                            <hr />
-                            <br />
                             <li className={styles.pointList}>HTML</li>
                             <li className={styles.pointList}>CSS</li>
                             <li className={styles.pointList}>JavaScript</li>
                             <li className={styles.pointList}>React</li>
                             <li className={styles.pointList}>SQL</li>
                             <li className={styles.pointList}>computer networks</li>
-                            <br />
-                            <hr />
-                            <br />
                             <li className={styles.pointList}>English B2</li>
                             <li className={styles.pointList}>Spanish native</li>
                         </ul>

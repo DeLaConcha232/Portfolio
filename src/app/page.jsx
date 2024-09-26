@@ -7,6 +7,7 @@ import Carousel from '../components/carousel';
 import Navbar from '../components/Navbar';
 import Footer from '../components/footer';
 import IconsTecnologies from '../components/iconsTecnologies';
+import Image from 'next/image';
 
 export default function inicio() {
   return (
@@ -23,7 +24,10 @@ export default function inicio() {
         <article className={styles.containerCarousel}>
           <Carousel />
         </article>
-        <article>
+        <article className={styles.containerCVV}>
+          <Image src="/assets/curriculum Actulizado_page-0001.jpg" alt="CVV" width={550} height={100}/>
+        </article>
+        <article className={styles.containerFooter}>
           <Footer />
         </article>
       </main>

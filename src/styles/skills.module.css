@@ -4,10 +4,14 @@
     width: 100%;
     height: auto;
     padding: 2rem;
-    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .containerLists{
     width: 100%;
+    max-width: 80rem;
     height: auto;
     display: flex;
     flex-wrap: wrap;
@@ -28,4 +32,5 @@
 .pointList{
     font-size: 1.5rem;
     font-weight: lighter;
+    margin: 1rem;
 }

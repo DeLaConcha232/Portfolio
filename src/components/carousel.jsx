@@ -5,11 +5,11 @@ import styles from '../styles/carousel.module.css'; // Importar los estilos desd
 import Image from "next/image";
 
 const images = [
-  "/assets/background-3.jpg",
-  "/assets/background-3.jpg",
-  "/assets/background-3.jpg",
-  "/assets/background-3.jpg",
-  "/assets/background-3.jpg"
+  "/assets/Certifications/certificado-git-githug.jpg",
+  "/assets/Certifications/diploma-ecmascript-6.jpg",
+  "/assets/Certifications/certificado-basico-javascript.jpg",
+  "/assets/Certifications/diploma-javascript-practico.jpg",
+  "/assets/Certifications/certificado-html-Y-css-practico.jpg",
 ];
 
 const ImageCarousel = () => {

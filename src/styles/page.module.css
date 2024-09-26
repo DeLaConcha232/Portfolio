@@ -37,3 +37,20 @@
     position: sticky;
     top: 0;
 }
+
+.containerFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 3rem;
+}
+.containerCVV{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
