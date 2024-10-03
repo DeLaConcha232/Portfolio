@@ -1,0 +1,36 @@
+
+
+.container{
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.containerLists{
+    width: 100%;
+    max-width: 80rem;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    box-shadow: 2px 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.skills{
+    margin: 3rem;
+}
+.list{
+    list-style: none;
+}
+.pointList{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    margin: 1rem;
+}

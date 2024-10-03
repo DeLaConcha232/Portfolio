@@ -1,0 +1,56 @@
+
+.container{
+    width: 100%;
+    height: auto;
+    background-color: #1b1b1b;
+}
+
+.containerProyects{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+}
+
+.containerCarousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+}
+.containerNav{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    background-color: transparent;
+    position: sticky;
+    top: 0;
+}
+
+.containerFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 3rem;
+}
+.containerCVV{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}

@@ -1,0 +1,54 @@
+
+
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1b1b1b;
+    padding: 5rem;
+    gap: 4rem;
+}
+.containerInfo{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    gap: 2rem;
+}
+.containerSocialmedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.containerImageProfile{
+    width: auto;
+    height: auto;
+}
+.imgProfile{
+    width: auto;
+    height: auto;
+    border-radius: 2rem;
+}
+
+.containerText{
+    color: #fff;
+}
+.name{
+    font-size: 2rem;
+    font-weight: lighter;
+}
+.journey{
+    font-size: 3rem;
+
+}
+.inspirations{
+    font-size: 2rem;
+}
