@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Mi Portafolio Personal
 
-## Getting Started
+¡Bienvenido a mi portafolio personal! Este proyecto es una representación de mis habilidades, proyectos, y experiencia en desarrollo de software. Fue construido con el propósito de mostrar mi trabajo y mi crecimiento profesional como desarrollador.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌟 Características principales
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Interfaz moderna y responsiva**: Diseñada para adaptarse a cualquier dispositivo.
+- **Sección de proyectos**: Una muestra de los proyectos en los que he trabajado, con descripciones y enlaces.
+- **Perfil personal**: Información sobre mí, mis intereses y habilidades técnicas.
+- **Contacto**: Formulario interactivo para que los visitantes puedan ponerse en contacto conmigo fácilmente.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🔧 Tecnologías utilizadas
 
-## Learn More
+Este portafolio fue desarrollado utilizando las siguientes tecnologías:
 
-To learn more about Next.js, take a look at the following resources:
+- **Framework**: Next
+- **CSS Framework**: Tailwind CSS
+- **Libreria**: React
+- **Herramientas adicionales**: 
+  - React Icons
+  - Framer Motion (para animaciones)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🤝 Contribuciones
+Este proyecto es personal, pero siempre estoy abierto a sugerencias o ideas. Si tienes algo que agregar, no dudes en abrir un issue o enviarme un pull request.
 
-## Deploy on Vercel
+📬 Contacto
+Si deseas contactarme, puedes hacerlo a través de:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Correo electrónico: diegodiazdelaconcha23@gmail.com
+LinkedIn: www.linkedin.com/in/diego-díaz-de-la-concha-193488271
+Portafolio en línea: 
